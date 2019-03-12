@@ -1,0 +1,23 @@
+{
+    "name": "cryptomerchant/cryptomerchant-php",
+    "description": "cryptomerchant official php library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mitul.l",
+            "email": "mitul.l@cearsinfotech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap" : ["lib/APIError.php"],
+        "psr-4": {
+          "CryptoMerchant\\": "lib/"
+        }
+      }
+}
